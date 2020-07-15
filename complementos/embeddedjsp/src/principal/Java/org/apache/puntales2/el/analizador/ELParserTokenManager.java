@@ -253,7 +253,7 @@ public class ELParserTokenManager implements ELParserConstants {
                 kind = 0x7fffffff;
             }
             ++curPos;
-            if ((i = jjnewStateCnt) == (startsAt = 8 - (jjnewStateCnt = startsAt)))
+            if ((i = jjnewStateCnt) == (startsAt = 8 - (jjnewStateCnt = startsAt)
                 return curPos;
             try {
                 curChar = input_stream.readChar();
